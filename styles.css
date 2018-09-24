@@ -1,0 +1,10 @@
+.wrapper-logo{
+  width: 30%;
+  display: block;
+}
+.text-almacenaje{
+  width:50%;
+  display: block;
+  float:right;
+  text-align: left;
+}
