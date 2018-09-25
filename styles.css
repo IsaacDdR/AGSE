@@ -1,6 +1,5 @@
 .front-logo{
   height: 100vh;
-  width: 100%;
   border: solid black;
 }
 .wrapper-logo{
@@ -17,6 +16,7 @@
   border: solid black;
 }
 .title-almacenaje{
+  text-align:center;
   margin:auto;
   border: solid black;
   width:50%;
@@ -33,6 +33,7 @@
   border:solid black;
 }
 .title-logistica{
+  text-align: center;
   margin:auto;
   border: solid black;
   width: 50%;
@@ -43,4 +44,38 @@
   border: solid black;
   width: 50%;
   text-align: left;
+}
+
+.front-inge{
+  border: solid black;
+}
+.title-inge{
+  text-align: center;
+  width:50%;
+  margin:auto;
+  border: solid black;
+}
+
+.text-inge{
+  text-align: center;
+  border: solid black;
+  margin: auto;
+  width: 50%;
+}
+
+.front-jit{
+  border: solid black;
+}
+
+.title-jit{
+  border: solid black;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.text-jit{
+  border: solid black;
+  width: 50%;
+  margin: auto;
+  text-align: center;
 }
