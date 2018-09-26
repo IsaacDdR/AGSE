@@ -1,16 +1,24 @@
 html{
   font-family: 'Montserrat', sans-serif;
 }
+.master-logo{
+  border:solid black;
+}
+
 .front-logo{
   height: 100vh;
   border: solid black;
 }
 .wrapper-logo{
-  margin: auto;
-  margin-top:5vh;
-  width: 50%;
+  margin-top:10%;
+  margin-left: 10%;
+  width: 30%;
   border:solid black;
 }
+.text-logo{
+  float: right;
+}
+
 
 .AGSE-main{
   width:100%;
@@ -81,4 +89,22 @@ html{
   width: 50%;
   margin: auto;
   text-align: center;
+}
+
+.main-contact{
+  border: solid black;
+}
+
+.title-contact{
+  border: solid black;
+  text-align:center;
+  margin: auto;
+  width: 50%;
+}
+
+.text-contact{
+  border: solid black;
+  text-align: center;
+  margin: auto;
+  width: 50%;
 }
