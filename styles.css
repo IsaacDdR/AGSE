@@ -1,22 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 html{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 .master-logo{
-  border:solid black;
+  border: solid;
+  margin:auto;
+  width:100%;
+  height:50vh;
+/*border:solid black;*/
 }
 
 .front-logo{
-  height: 100vh;
-  border: solid black;
+  flex: 0 0 30%;
+  display:flex;
+  height: 50vh;
+  /*border: solid black;*/
 }
 .wrapper-logo{
-  margin-top:10%;
-  margin-left: 10%;
-  width: 30%;
-  border:solid black;
+
+  width: 50%;
+  /*border:solid black;*/
 }
 .text-logo{
-  float: right;
+  flex: 1;
+  text-align: right;
 }
 
 
@@ -24,86 +32,109 @@ html{
   width:100%;
 }
 .front-almacenaje{
-  border: solid black;
+display:flex;
+/*  border: solid black;*/
+height:50vh;
+flex: 0 0 50%;
 }
 .title-almacenaje{
-  text-align:center;
-  margin:auto;
-  border: solid black;
-  width:50%;
+width:50%;
+margin:auto;
+/*  border: solid black;*/
+text-align:center;
 }
 .text-almacenaje{
+  flex: 1;
+  /*  border: solid black;*/
+  width:50% ;
+  margin:auto;
   text-align: center;
-  margin: auto;
-  border: solid black;
-  width:50%;
-  text-align: left;
+}
+.text-wrapper{
+  width: 50%;
+}
+.logo-icon{
+  flex:2;
 }
 
 .front-logistica{
-  border:solid black;
+  flex: 0 0 50%;
+  height: 50vh;
+  display:flex;
+/*  border:solid black;*/
 }
 .title-logistica{
   text-align: center;
   margin:auto;
-  border: solid black;
+/*  border: solid black;*/
   width: 50%;
 }
 .text-logistica{
   text-align: center;
+
   margin: auto;
-  border: solid black;
+/*  border: solid black;*/
   width: 50%;
   text-align: left;
+  flex : 1;
 }
 
 .front-inge{
-  border: solid black;
+  display: flex;
+  flex: 0 0 50%;
+  height:100vh;
+/*  border: solid black;*/
 }
 .title-inge{
-  text-align: center;
   width:50%;
+  text-align: center;
   margin:auto;
-  border: solid black;
+  /* border: solid black;*/
 }
 
 .text-inge{
   text-align: center;
-  border: solid black;
+  /*border: solid black;*/
   margin: auto;
   width: 50%;
 }
 
 .front-jit{
-  border: solid black;
+/*border: solid black;*/
+display: flex;
+height: 80vh;
+flex: 0 0 50%;
 }
 
+
+
 .title-jit{
-  border: solid black;
+ /*border: solid black;*/
   width: 50%;
   margin: auto;
   text-align: center;
 }
 .text-jit{
-  border: solid black;
+  flex: 1;
+/*border: solid black;*/
   width: 50%;
   margin: auto;
   text-align: center;
 }
 
 .main-contact{
-  border: solid black;
+  /*border: solid black;*/
 }
 
 .title-contact{
-  border: solid black;
+  /*border: solid black;*/
   text-align:center;
   margin: auto;
   width: 50%;
 }
 
 .text-contact{
-  border: solid black;
+/*border: solid black;*/
   text-align: center;
   margin: auto;
   width: 50%;
