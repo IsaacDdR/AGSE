@@ -4,10 +4,10 @@ html{
   font-family: 'Quicksand', sans-serif;
 }
 .master-logo{
-  border: solid;
   margin:auto;
   width:50%;
   height:50vh;
+  background-image:url("background.jpg");
 /*border:solid black;*/
 }
 
@@ -23,8 +23,11 @@ html{
   /*border:solid black;*/
 }
 .text-logo{
+  background-color: white;
+  opacity: 0.5;
   flex: 1;
-  text-align: right;
+  text-align: center;
+  width: 100%;
 }
 
 
