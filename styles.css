@@ -15,7 +15,6 @@ html{
 /*border:solid black;*/
 }
 
-
 .front-logo{
   flex: 0 0 30%;
   display:flex;
@@ -24,11 +23,13 @@ html{
   margin:auto;
   /*border: solid black;*/
 }
+
 .wrapper-logo{
   margin: auto;
   width: 50%;
   /*border:solid black;*/
 }
+
 .text-logo{
   background-color: white;
   opacity: 0.5;
@@ -37,35 +38,37 @@ html{
   width: 100%;
 }
 
-
 .AGSE-main{
   width:100%;
 }
+
 .front-almacenaje{
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-    background-image:url("default.jpg");
-margin-top:15%;
-margin-bottom: 15%;
-display:flex;
-flex: 0 0 50%;
-
-
+  background-image:url("default.jpg");
+  margin-top:15%;
+  margin-bottom: 15%;
+  display:flex;
+  flex: 0 0 50%;
 }
+
 .title-almacenaje{
 width:50%;
 margin:auto;
 /*  border: solid black;*/
 text-align:center;
 }
+
 .text-almacenaje{
   flex: 1;
   /*  border: solid black;*/
   margin:auto;
   text-align: center;
 }
+
 .text-wrapper{
   width: 50%;
 }
+
 .logo-icon{
   flex:;
   width: 40%;
@@ -73,21 +76,22 @@ text-align:center;
 
 .front-logistica{
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-    background-image:url("default.jpg");
+  background-image:url("default.jpg");
   margin-top:15%;
   margin-bottom: 15%;
   flex: 0 0 50%;
   margin:auto;
-
   display:flex;
 /*  border:solid black;*/
 }
+
 .title-logistica{
   text-align: center;
   margin:auto;
 /*  border: solid black;*/
   width: 50%;
 }
+
 .text-logistica{
   text-align: center;
 
@@ -107,6 +111,7 @@ text-align:center;
   flex: 0 0 50%;
 /*  border: solid black;*/
 }
+
 .title-inge{
   width:50%;
   text-align: center;
@@ -125,13 +130,11 @@ text-align:center;
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   background-image:url("default.jpg");
 /*border: solid black;*/
-display: flex;
-flex: 0 0 50%;
-margin-top:15%;
-margin-bottom: 15%;
+  display: flex;
+  flex: 0 0 50%;
+  margin-top:15%;
+  margin-bottom: 15%;
 }
-
-
 
 .title-jit{
  /*border: solid black;*/
@@ -139,6 +142,7 @@ margin-bottom: 15%;
   margin: auto;
   text-align: center;
 }
+
 .text-jit{
   flex: 1;
 /*border: solid black;*/
@@ -154,12 +158,10 @@ margin-bottom: 15%;
 }
 
 .title-contact{
-
   /*border: solid black;*/
   text-align:center;
   margin: auto;
   width: 50%;
-
 }
 
 .text-contact{
@@ -168,6 +170,7 @@ margin-bottom: 15%;
   margin: auto;
   width: 50%;
 }
+
 .titles{
-  font-size: 200%;
+  font-size: 150%;
 }
