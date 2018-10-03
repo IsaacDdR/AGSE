@@ -20,12 +20,6 @@ html{
 .front-logo{
 }
 
-
-
-
-
-
-
 .AGSE-main{
   width:20%;
 
@@ -166,7 +160,9 @@ box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   /*border: solid black;*/
   text-align:center;
   margin: auto;
+  margin-top: 5px;
   width: 50%;
+  font-size:100% !important;
 }
 
 
