@@ -106,12 +106,17 @@ text-align:center;
   width:50%;
   text-align: center;
   margin:auto;
-  width: 80%;
+  
   /* border: solid black;*/
 }
 
 .text-inge{
   text-align: left;
+  flex: 1;
+/*border: solid black;*/
+  width: 50%;
+  margin: auto;
+
   /*border: solid black;*/
 }
 
