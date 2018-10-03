@@ -8,52 +8,48 @@ html{
   background-image:url("back.png");
 }
 .master-logo{
-  width:80%;
+  width:100%;
   background-image:url("background.jpg");
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   margin:auto;
-  margin-bottom: 5%;
-  text-align:center;
-/*border:solid black;*/
+
 }
 
 .front-logo{
 }
 
 .AGSE-main{
-  width:20%;
-
+  width:7%;
+  padding:1%;
 }
 
 .front-almacenaje{
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-  background-color: rgba(255, 255, 255, 0.5);
-  margin: auto;
-  display:flex;
+  display:flex  ;
   flex: 0 0 50%;
   border-radius: 15px;
-  width:80%;
-  margin-bottom: 5%;
+  width:100%;
+  height:100vh;
 }
 
 .title-almacenaje{
 width:50%;
-margin:auto;
-
-/*  border: solid black;*/
+height: 10%;
 text-align:center;
+background-color: rgb(130, 210, 235);
 }
-
+.background-almacenaje{
+  background-image:url("almacenaje-background.png");
+  height: 100vh;
+}
 .text-almacenaje{
   flex: 1;
-  /*  border: solid black;*/
   margin:auto;
   text-align: left;
 }
 
 .text-wrapper{
   width: 50%;
-
 }
 
 .logo-icon{
@@ -63,28 +59,22 @@ text-align:center;
 
 .front-logistica{
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-    background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   flex: 0 0 50%;
-  margin:auto;
-  width: 80%;
+  width: 100%;
+  height: 100vh;
   display:flex;
   border-radius: 15px;
-  margin-bottom:5%;
-/*  border:solid black;*/
 }
 
 .title-logistica{
   text-align: center;
-  margin:auto;
-/*  border: solid black;*/
   width: 50%;
 }
 
 .text-logistica{
   text-align: center;
-
   margin: auto;
-/*  border: solid black;*/
   width: 50%;
   text-align: left;
   flex : 1;
@@ -95,45 +85,37 @@ text-align:center;
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 100%;
+  height: 100vh;
   border-radius: 15px;
   flex: 0 0 50%;
-  margin-bottom: 5%;
-/*  border: solid black;*/
 }
 
 .title-inge{
   width:50%;
   text-align: center;
   margin:auto;
-  
-  /* border: solid black;*/
 }
 
 .text-inge{
   text-align: left;
   flex: 1;
-/*border: solid black;*/
   width: 50%;
   margin: auto;
-
-  /*border: solid black;*/
 }
 
 .front-jit{
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-    background-color: rgba(255, 255, 255, 0.5);
-/*border: solid black;*/
+  background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   flex: 0 0 50%;
   margin: auto;
-  width:80%;
+  width:100%;
+  height: 100vh;
   border-radius: 15px;
-
 }
 
 .title-jit{
- /*border: solid black;*/
   width: 50%;
   margin: auto;
   text-align: center;
@@ -141,31 +123,25 @@ text-align:center;
 
 .text-jit{
   flex: 1;
-/*border: solid black;*/
   width: 50%;
   margin: auto;
   text-align: left;
 }
 
 .main-contact{
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
   text-align:center;
   margin: auto;
-  width: 80%;/*border: solid black;*/
-  margin-top:5%;
+  width: 100%;/*border: solid black;*/
   height: 20vh;
   background-color: white;
-    padding:1%;
-box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
+  padding:1%;
+  box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
 }
 
 
 .title-contact{
-  /*border: solid black;*/
   text-align:center;
   margin: auto;
-  margin-top: 5px;
   width: 50%;
   font-size:100% !important;
 }
