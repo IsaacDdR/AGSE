@@ -66,10 +66,11 @@ h3 {
 
 
 .title-almacenaje{
+  background:url("almacenaje-background.png") no-repeat;
+  background-size: cover;
 width:50%;
 height: 100%;
 text-align:center;
-background:url("almacenaje-background.png") no-repeat;
 
 
 
@@ -103,6 +104,7 @@ background:url("almacenaje-background.png") no-repeat;
 }
 
 .title-logistica{
+  background-size: cover;
   width:50%;
   height: 100%;
   text-align:center;
@@ -130,11 +132,12 @@ background:url("almacenaje-background.png") no-repeat;
 }
 
 .title-inge{
+  background:url("engineer.jpg") no-repeat;
+  background-size: cover;
   width:50%;
   text-align: center;
   width: 50%;
   height:100%;
-  background:url("engineer.jpg") no-repeat;
 }
 
 
@@ -157,10 +160,11 @@ background:url("almacenaje-background.png") no-repeat;
 }
 
 .title-jit{
+  background: url("clock.jpg");
+  background-size: 100%;
   width: 50%;
   height: 100%;
   text-align: center;
-  background: url("clock.jpg");
 }
 
 .text-jit{
@@ -191,5 +195,5 @@ background:url("almacenaje-background.png") no-repeat;
 
 
 .titles{
-  font-size: 150%;
+  font-size: 5vh;
 }
