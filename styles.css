@@ -4,6 +4,14 @@ html{
   font-family: 'Quicksand', sans-serif;
   margin:0px 0px 0px 0px;
 }
+body{
+  margin: 0px;
+}
+h3 {
+  margin: 0px;
+  background-color:rgba(255,255,255,0.5);
+  box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
+}
 .full-index{
   background-image:url("back.png");
 }
@@ -12,6 +20,7 @@ html{
   background-image:url("background.jpg");
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   margin:auto;
+  position:fixed;
 
 }
 
@@ -19,28 +28,53 @@ html{
 }
 
 .AGSE-main{
-  width:7%;
-  padding:1%;
+  width:10%;
 }
+.content-logo  {
+  overflow: hidden;
+  width:100%;
+  box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
+}
+ .content-logo a{
+   align:center;
+  float:left;
+  text-align: center;
+  padding-left:5%;
+  text-decoration: none;
+  color: black;
+  padding-top: 5%;
+  font-size: 4vh;
+ }
+ .content-logo img{
+   float:left;
+   margin:1%;
+   padding-left:5%;
+   padding-right: 5%;
+ }
+
 
 .front-almacenaje{
+
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   display:flex  ;
   flex: 0 0 50%;
   border-radius: 15px;
   width:100%;
   height:100vh;
+  padding-top:11%;
 }
+
 
 .title-almacenaje{
 width:50%;
-height: 10%;
+height: 100%;
 text-align:center;
-background-color: rgb(130, 210, 235);
+background:url("almacenaje-background.png") no-repeat;
+
+
+
 }
 .background-almacenaje{
-  background-image:url("almacenaje-background.png");
-  height: 100vh;
 }
 .text-almacenaje{
   flex: 1;
@@ -49,7 +83,8 @@ background-color: rgb(130, 210, 235);
 }
 
 .text-wrapper{
-  width: 50%;
+  width: 70%;
+  margin-left: 10%;
 }
 
 .logo-icon{
@@ -68,8 +103,11 @@ background-color: rgb(130, 210, 235);
 }
 
 .title-logistica{
-  text-align: center;
-  width: 50%;
+  width:50%;
+  height: 100%;
+  text-align:center;
+  background:url("logistics-wallpaper.png") no-repeat;
+
 }
 
 .text-logistica{
@@ -94,8 +132,11 @@ background-color: rgb(130, 210, 235);
 .title-inge{
   width:50%;
   text-align: center;
-  margin:auto;
+  width: 50%;
+  height:100%;
+  background:url("engineer.jpg") no-repeat;
 }
+
 
 .text-inge{
   text-align: left;
@@ -117,8 +158,9 @@ background-color: rgb(130, 210, 235);
 
 .title-jit{
   width: 50%;
-  margin: auto;
+  height: 100%;
   text-align: center;
+  background: url("clock.jpg");
 }
 
 .text-jit{
