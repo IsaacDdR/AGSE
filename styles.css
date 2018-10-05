@@ -161,7 +161,7 @@ text-align:center;
 
 .title-jit{
   background: url("clock.jpg");
-  background-size: 100%;
+  background-size: cover;
   width: 50%;
   height: 100%;
   text-align: center;
