@@ -8,9 +8,10 @@ body{
   margin: 0px;
 }
 h3 {
-  margin: 0px;
+  margin: auto;
   background-color:rgba(255,255,255,0.5);
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
+  padding: 3%;
 }
 .full-index{
   background-image:url("back.png");
@@ -20,35 +21,32 @@ h3 {
   width:100%;
   background-image:url("background.jpg");
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-  margin:auto;
   position:fixed;
-
+  height: auto;
 }
 
 .front-logo{
 }
 
 .AGSE-main{
-  width:10%;
+  width:5%;
 }
-.content-logo  {
-  overflow: hidden;
-  width:100%;
-  box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-}
+
  .content-logo a{
-   align:center;
+   
   float:left;
-  text-align: center;
+  
   padding-left:5%;
+  padding-right:5%;
   text-decoration: none;
   color: black;
-  padding-top: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  
   font-size: 4vh;
  }
  .content-logo img{
    float:left;
-   margin:1%;
    padding-left:5%;
    padding-right: 5%;
  }
@@ -62,7 +60,7 @@ h3 {
   border-radius: 15px;
   width:100%;
   height:100vh;
-  padding-top:11%;
+  padding-top:13%;
 }
 
 
@@ -85,9 +83,8 @@ text-align:center;
 }
 
 .text-wrapper{
-  width: 70%;
-  margin-left: 10%;
-}
+  font-size: 4vh;
+ }
 
 .logo-icon{
   flex:;
@@ -114,11 +111,11 @@ text-align:center;
 }
 
 .text-logistica{
-  text-align: center;
-  margin: auto;
+ 
   width: 50%;
   text-align: left;
-  flex : 1;
+  
+  height: 50%;
 }
 
 .front-inge{
@@ -196,5 +193,5 @@ text-align:center;
 
 
 .titles{
-  font-size: 150%;
+  font-size: 8vh;
 }
