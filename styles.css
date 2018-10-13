@@ -17,6 +17,8 @@ h3 {
   background-image:url("back.png");
   overflow: hidden;
 }
+
+
 .master-logo{
   width:100%;
   background-image:url("background.jpg");
@@ -25,8 +27,6 @@ h3 {
   height: auto;
 }
 
-.front-logo{
-}
 
 .AGSE-main{
   width:5%;
@@ -60,7 +60,8 @@ h3 {
   border-radius: 15px;
   width:100%;
   height:100vh;
-  padding-top:4%;
+  padding-top:4.5%;
+  margin: 0px;
 }
 
 
@@ -78,12 +79,14 @@ text-align:center;
 }
 .text-almacenaje{
   flex: 1;
-  margin:auto;
-  text-align: left;
+  margin:2%;
+
 }
 
 .text-wrapper{
   font-size: 4vh;
+  height: 90%;
+  margin: 2%;
  }
 
 .logo-icon{
@@ -115,7 +118,7 @@ text-align:center;
   width: 50%;
   text-align: left;
   
-  height: 50%;
+
 }
 
 .front-inge{
@@ -140,10 +143,8 @@ text-align:center;
 
 
 .text-inge{
-  text-align: left;
   flex: 1;
-  width: 50%;
-  margin: auto;
+  margin: 2%;
 }
 
 .front-jit{
@@ -167,9 +168,7 @@ text-align:center;
 
 .text-jit{
   flex: 1;
-  width: 50%;
-  margin: auto;
-  text-align: left;
+  margin: 2%;
 }
 
 .main-contact{
