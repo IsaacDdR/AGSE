@@ -4,20 +4,23 @@ html{
   font-family: 'Quicksand', sans-serif;
   margin:0px 0px 0px 0px;
 }
+
 body{
   margin: 0px;
 }
+
 h3 {
-  margin: auto;
+
+  margin-top:30% ;
   background-color:rgba(255,255,255,0.5);
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-  padding: 3%;
+
 }
+
 .full-index{
   background-image:url("back.png");
   overflow: hidden;
 }
-
 
 .master-logo{
   width:100%;
@@ -27,24 +30,21 @@ h3 {
   height: auto;
 }
 
-
 .AGSE-main{
   width:5%;
 }
 
  .content-logo a{
-   
   float:left;
-  
   padding-left:5%;
   padding-right:5%;
   text-decoration: none;
   color: black;
   margin-top: 1%;
   margin-bottom: 1%;
-  
   font-size: 4vh;
  }
+
  .content-logo img{
    float:left;
    padding-left:5%;
@@ -53,7 +53,6 @@ h3 {
 
 
 .front-almacenaje{
-
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   display:flex  ;
   flex: 0 0 50%;
@@ -64,23 +63,19 @@ h3 {
   margin: 0px;
 }
 
-
 .title-almacenaje{
   background:url("almacenaje-background.jpg") no-repeat;
   background-size: cover;
-width:50%;
-height: 100%;
-text-align:center;
-
-
-
+  width:50%;
+  height: 100%;
+  text-align:center;
 }
+
 .background-almacenaje{
 }
 .text-almacenaje{
   flex: 1;
   margin:2%;
-
 }
 
 .text-wrapper{
@@ -110,15 +105,11 @@ text-align:center;
   height: 100%;
   text-align:center;
   background:url("logistics-wallpaper.png") no-repeat;
-
 }
 
 .text-logistica{
- 
-  width: 50%;
+ width: 50%;
   text-align: left;
-  
-
 }
 
 .front-inge{
@@ -140,7 +131,6 @@ text-align:center;
   width: 50%;
   height:100%;
 }
-
 
 .text-inge{
   flex: 1;
@@ -179,17 +169,16 @@ text-align:center;
   background-color: white;
   padding:1%;
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
+  font-size: 3vh;
 }
-
 
 .title-contact{
   text-align:center;
-  margin: auto;
+  margin:auto;
+  padding-bottom:5%;
   width: 50%;
   font-size:100% !important;
 }
-
-
 
 .titles{
   font-size: 8vh;
