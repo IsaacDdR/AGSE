@@ -28,6 +28,7 @@ h3 {
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   position:fixed;
   height: auto;
+  margin-bottom: 5%;
 }
 
 .AGSE-main{
@@ -52,27 +53,30 @@ h3 {
  }
 
 
-.front-almacenaje{
+.front{
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-  display:flex  ;
+  display:flex;
   flex: 0 0 50%;
   border-radius: 15px;
   width:100%;
   height:100vh;
-  padding-top:4.5%;
   margin: 0px;
 }
 
-.title-almacenaje{
-  background:url("almacenaje-background.jpg") no-repeat;
-  background-size: cover;
+.title {
+  font-size: 10vh;
   width:50%;
-  height: 100%;
-  text-align:center;
+  height:100%;
+  text-align: center;
 }
 
-.background-almacenaje{
+.almacenaje{
+
+  background-size: cover;
+  background:url("almacenaje-background.jpg") no-repeat;
 }
+
+
 .text-almacenaje{
   flex: 1;
   margin:2%;
@@ -89,21 +93,8 @@ h3 {
   width: 40%;
 }
 
-.front-logistica{
-  box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-  background-color: rgba(255, 255, 255, 0.5);
-  flex: 0 0 50%;
-  width: 100%;
-  height: 100vh;
-  display:flex;
-  border-radius: 15px;
-}
-
-.title-logistica{
+.logistica{
   background-size: cover;
-  width:50%;
-  height: 100%;
-  text-align:center;
   background:url("logistics-wallpaper.png") no-repeat;
 }
 
@@ -112,24 +103,10 @@ h3 {
   text-align: left;
 }
 
-.front-inge{
-  box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-  background-color: rgba(255, 255, 255, 0.5);
-  display: flex;
-  margin: auto;
-  width: 100%;
-  height: 100vh;
-  border-radius: 15px;
-  flex: 0 0 50%;
-}
 
-.title-inge{
+.inge{
   background:url("engineer.jpg") no-repeat;
   background-size: cover;
-  width:50%;
-  text-align: center;
-  width: 50%;
-  height:100%;
 }
 
 .text-inge{
@@ -137,23 +114,10 @@ h3 {
   margin: 2%;
 }
 
-.front-jit{
-  box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
-  background-color: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex: 0 0 50%;
-  margin: auto;
-  width:100%;
-  height: 100vh;
-  border-radius: 15px;
-}
 
-.title-jit{
-  background: url("clock.jpg");
+.jit{
   background-size: cover;
-  width: 50%;
-  height: 100%;
-  text-align: center;
+  background: url("clock.jpg") no-repeat;
 }
 
 .text-jit{
@@ -165,7 +129,7 @@ h3 {
   text-align:center;
   margin: auto;
   width: 100%;/*border: solid black;*/
-  height: 20vh;
+  height: 25vh;
   background-color: white;
   padding:1%;
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
@@ -175,7 +139,7 @@ h3 {
 .title-contact{
   text-align:center;
   margin:auto;
-  padding-bottom:5%;
+
   width: 50%;
   font-size:100% !important;
 }
