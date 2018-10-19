@@ -38,8 +38,8 @@ h3 {
 
  .content-logo a{
   float:left;
-  padding-left:5%;
-  padding-right:5%;
+  padding-left:2%;
+  padding-right:2%;
   text-decoration: none;
   color: black;
   margin-top: 2%;
@@ -52,6 +52,9 @@ h3 {
    padding-left:5%;
    padding-right: 5%;
  }
+.text-nav{
+  padding-left: 5%;
+}
 
 .full{
   margin-top: 4%;
