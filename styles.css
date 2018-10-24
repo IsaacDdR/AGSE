@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 html{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin:0px 0px 0px 0px;
 }
 
@@ -37,7 +36,7 @@ h3 {
   margin: 1%;
 }
 
- .content-logo a{
+.content-logo a{
   float:left;
   padding-left:2%;
   padding-right:2%;
@@ -48,11 +47,12 @@ h3 {
   font-size: 3vh;
  }
 
- .content-logo img{
+.content-logo img{
    float:left;
    padding-left:5%;
    padding-right: 5%;
  }
+
 .text-nav{
   padding-left: 5%;
 
@@ -77,7 +77,13 @@ h3 {
   height:100%;
   text-align: center;
 }
-
+.intro{
+  text-align: center;
+  font-size: 5vh;
+}
+.intro-title{
+  font-size: 300%;
+}
 .almacenaje{
 
   background-size: cover;
@@ -91,7 +97,6 @@ h3 {
   flex: 1;
   padding: 4%;
   margin:5%;
-  margin-top:0px;
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
 }
 
@@ -99,7 +104,7 @@ h3 {
   font-size: 4vh;
   height: 90%;
   margin: 2%;
- }
+}
 
 .logo-icon{
   flex:;
@@ -115,10 +120,10 @@ h3 {
   background-size: cover;
   background-image: url("back.jpg");
   flex:1;
- width: 50%;
- padding: 3%;
- margin:5%;
- box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
+  width: 50%;
+  padding: 3%;
+  margin:5%;
+  box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
  /*! margin-right: 0%; */
 }
 
@@ -166,7 +171,6 @@ h3 {
 .title-contact{
   text-align:center;
   margin:auto;
-
   width: 50%;
   font-size:100% !important;
 }
