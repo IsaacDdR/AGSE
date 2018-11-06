@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html{
   font-family: 'Quicksand', sans-serif;
   margin:0px 0px 0px 0px;
@@ -57,7 +58,6 @@ h3 {
 
 .text-nav{
   padding-left: 5%;
-
 }
 
 .full{
@@ -67,6 +67,7 @@ h3 {
   margin-left:10%;
   margin-top: 4%;
 }
+
 .front{
   display:flex;
   flex: 0 0 50%;
@@ -83,21 +84,25 @@ h3 {
   height:100%;
   text-align: center;
 }
+
 .intro{
   text-align: center;
   font-size: 5vh;
 }
+
 .intro-title{
+  width:50%;
+  display: block ;
+  margin: auto;
   font-size: 300%;
 }
-.almacenaje{
-background: transparent;
-box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
 
+.almacenaje{
+  background: transparent;
+  box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   background-size: cover;
   background:url("almacenaje-background.jpg") no-repeat;
 }
-
 
 .text-almacenaje{
   background-size : cover;
@@ -109,7 +114,7 @@ box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
 }
 
 .text-wrapper{
-  font-size: 4vh;
+  font-size: 3vh;
   height: 90%;
   margin: 2%;
 }
@@ -134,7 +139,6 @@ box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
  /*! margin-right: 0%; */
 }
 
-
 .inge{
   box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   background:url("engineer.jpg") no-repeat;
@@ -147,7 +151,6 @@ box-shadow: 10px 10px 39px -21px rgba(0,0,0,1);
   margin: 5%;
   padding:3%;
 }
-
 
 .jit{
   background-size: cover;
